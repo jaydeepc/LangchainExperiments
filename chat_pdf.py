@@ -24,8 +24,8 @@ def main():
 
         text_splitter = CharacterTextSplitter(
             separator="\n",
-            chunk_size=2000,
-            chunk_overlap=850,
+            chunk_size=1000,
+            chunk_overlap=450,
             length_function=len,
         )
 

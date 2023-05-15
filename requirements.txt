@@ -5,3 +5,10 @@ python-dotenv
 openai
 tiktoken
 faiss-cpu
+streamlit-chat
+tabulate
+loguru
+unstructured
+pdf2image
+pytesseract
+chromadb
