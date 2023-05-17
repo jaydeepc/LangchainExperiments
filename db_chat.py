@@ -18,7 +18,7 @@ if 'summary_memory' not in st.session_state:
     st.session_state['summary_memory'] = ""
 
 def generate_response(message):
-    dburi = "sqlite:///accounts.db"
+    dburi = "sqlite:///chinook.db"
     db = SQLDatabase.from_uri(dburi)
 
     llm = ChatOpenAI(model_name="gpt-3.5-turbo")
